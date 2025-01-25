@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Best In Funding</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/iconsax-style.css" />
+	<link rel="stylesheet" href="assets/css/iconly.css" />
+	<link rel="stylesheet" href="assets/css/lity.min.css" />
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<style type="text/css">
+
+		input[type='range']::-webkit-slider-thumb {
+			background: #003b73;
+			border: 2px solid black;
+		}
+
+		.theme-bg {
+			background-color: #003b73;
+		}
+
+		input[type='range'] {
+			accent-color: #000!important;
+		}
+
+		.w-5 {
+			width: 5%;
+		}
+
+		.w-10 {
+			width: 10%;
+		}
+
+		.w-15 {
+			width: 15%;
+		}
+
+		.w-20 {
+			width: 20%;
+		}
+
+		.w-30 {
+			width: 30%;
+		}
+
+		.jost {
+			font-family: Jost;
+		}
+
+		.menu-list {
+			float: left;
+			width: 100%;
+			align-items: end;
+		}
+
+		.menu-list hr {
+			margin: 3px 0
+		}
+
+		.menu-list span.dots {
+			position: absolute;
+			bottom: 5px;
+			left: 0;
+			right: 0;
+			z-index: 1;
+			margin: 0;
+			border: 0;
+			height: 3px;
+			display: block;
+			background-image: radial-gradient(circle closest-side, #b3b3b3 99%, transparent 1%);
+			background-position: bottom;
+			background-size: 6px 3px;
+			background-repeat: repeat-x
+		}
+
+		.menu-list__title {
+			text-align: left;
+			text-transform: uppercase;
+			letter-spacing: 1.85px;
+			font-weight: 600;
+		}
+
+		.menu-list__item {
+			position: relative;
+			margin-bottom: 2px;
+			list-style: none;
+		}
+
+		.menu-list__item:last-child {
+			margin-bottom: 0
+		}
+
+		.menu-list__item-title {
+			position: relative;
+			margin-top: 0;
+			margin-bottom: 5px;
+			padding-right: 96px;
+			text-align: left;
+			letter-spacing: 1.25px;
+		}
+
+		.menu-list__item-title .item_title {
+			position: relative;
+			z-index: 5;
+			background-color: white;
+			font-size: 16px;
+			font-family: Jost;
+		}
+
+		.menu-list__item-title .item_price {
+			position: absolute;
+			right: 0;
+			z-index: 5;
+			bottom: 3px;
+			background-color: white;
+			font-size: 16px;
+			font-family: Jost;
+		}
+		
+
+	</style>
+</head>
+<body class="nla_demo_one">
+	<div class="preloader" id="preloader">
+		<svg viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1">
+			<path d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+		</svg>
+		<div class="inner">
+			<canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
+			<figure><img src="assets/images/preloader.png" alt="Image"></figure>
+			<small>Loading</small>
+		</div>
+	</div>
+
+
+	<!-- Header Section Start -->
+	<!-- Header Start -->
+	<div class="smooth-scroll" data-scroll-container>
+		<div class="section-wrapper" data-scroll-section>
+			<header>
+				<div class="nl-main-header bg-white pt-25 pb-35">
+					<div class="container container-1290">
+						<div class="row align-items-center">
+							<div class="col-4 col-lg-2">
+								<div class="nl-logo">
+									<a href="index.html">
+										<img src="assets/images/logo-blue.png" alt="" />
+									</a>
+								</div>
+							</div>
+							<div class="col-8 col-lg-7 d-flex align-items-center justify-content-lg-center justify-content-end">
+								<nav class="nl-navmenu text-center ps-xl-5 ul-li d-none d-lg-block">
+									<ul>
+										<li><a href="homeloans.html">Home Loans</a></li>
+										<li><a href="auto-loans/index.html">Auto Loans</a></li>
+										<li><a href="commercial-loans.html">Commercial Loans</a></li>
+										<li class="has-submenu">
+											<a href="javascript:void(0)">Resources</a>
+											<ul class="submenu-wrapper">
+												<li><a href="calculator.html">Calculators</a></li>
+												<li><a href="loanoptions.html">Loan Options</a></li>
+												<li><a href="https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm#eligibility" target="_blank" >Learning Center</a></li>
+												<li><a href="https://www.freddiemac.com/pmms" target="_blank">Current Rates</a></li>
+												<li><a href="#">Blogs</a></li>
+											</ul>
+										</li>
+										<li><a href="contact.html">Find a Loan Officer</a></li>
+									</ul>
+								</nav>
+								<button type="button" class="header-toggle offcanvus-toggle d-none">
+									<span class="offcanvas_border_one"></span>
+									<span></span>
+								</button>
+								<button type="button" class="header-toggle mobile-menu-toggle d-lg-none">
+									<span class="offcanvas_border_one"></span>
+									<span></span>
+								</button>
+							</div>
+							<div class="col-2 col-lg-3 d-none d-lg-block">
+								<div class="d-flex flex-row justify-content-end align-items-center">
+									<div class="nl__section-button nl-about-button has_fade_anim me-2" style="width: 60%; text-align:center; background: var(--nl-color-brown); color: var(--nl-color-gray-100); border-radius: .2rem;">
+										<a href="https://bestinfundingmortgage.mymortgage-online.com/loan-app/?siteId=9296176930&workFlowId=188654" class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-lg-inline-flex position-relative">
+											<span class="position-relative z-1">APPLY NOW</span>
+											<span class="nl__btn-hover-style"></span>
+										</a>
+									</div>
+									<button type="button" class="header-toggle mobile-menu-toggle">
+										<span class="offcanvas_border_one"></span>
+										<span></span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!--mobile menu start-->
+			<div class="mobile-menu ul-li">
+				<a href="javascript:void(0)" class="close"><i class="isax icon-close-circle1"></i></a>
+				<a href="index.html" class="logo"><img src="assets/images/logo-blue.png" alt="logo" class="img-fluid" /></a>
+				<ul class="mobile-nav-menu">
+					<li>
+						<a href="https://bestinfundingmortgage.mymortgage-online.com/loan-app/?siteId=9296176930&workFlowId=188654">APPLY NOW</a>
+					</li>
+					<li><a href="homeloans.html">Home Loans</a></li>
+					<li><a href="auto-loans/index.html">Auto Loans</a></li>
+					<li><a href="commercial-loans.html">Commercial Loans</a></li>
+					<li class="has-submenu">
+						<a href="#">Resources</a>
+						<i class="isax icon-arrow-down1"></i>
+						<ul class="submenu-wrapper">
+							<li><a href="calculator.html">Calculators</a></li>
+							<li><a href="loanoptions.html">Loan Options</a></li>
+							<li><a href="https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm#eligibility" target="_blank" >Learning Center</a></li>
+							<li><a href="https://www.freddiemac.com/pmms" target="_blank">Current Rates</a></li>
+							<li><a href="#">Blogs</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<!--mobile menu end-->
+
+			<div class="container-fluid   nl-bg-color-gray-100 has_fade_anim text-center h-100 py-5 nl-color-black">
+				<div class="row">
+					<div class="col-md-8 offset-md-2">
+						<h2>Privacy Policy </h2>
+						<p>Best in Funding is committed to ensuring your privacy. We strive to protect the confidentiality of all information that you provide. This policy describes how we treat your information on our website and when you apply for a financial product with us!</p>
+						
+					</div>
+				</div>
+			</div>
+			<div class="container py-5 ">
+				<div class="row">								
+					
+					<div class="col-md-12">			
+					<h4>INFORMATION WE COLLECT</h4>
+					<p>
+					<ul class="list-unstyled">
+						<li class="nl-font-heading nl-fs-18 nl-lh-24 has_fade_anim">
+							<span class="nl-color-brown mr-10"><i
+								class="nl-icon nl-icon-circle-check"></i></span>
+								If you apply for a loan we may collect nonpublic personal information about you from the following sources;							
+						</li>
+						<li class="nl-font-heading nl-fs-18 nl-lh-24 has_fade_anim">
+								<span class="nl-color-brown mr-10"><i
+									class="nl-icon nl-icon-circle-check"></i></span>
+									Information we receive from you on applications and other forms;
+						</li>
+						<li class="nl-font-heading nl-fs-18 nl-lh-24 has_fade_anim">
+									<span class="nl-color-brown mr-10"><i
+										class="nl-icon nl-icon-circle-check"></i></span>
+										Information about your transactions with us, our affiliates, or others; and							
+						</li>
+						<li class="nl-font-heading nl-fs-18 nl-lh-24 has_fade_anim">
+							<span class="nl-color-brown mr-10"><i
+								class="nl-icon nl-icon-circle-check"></i></span>
+								Information we receive from a consumer reporting agency.
+						</li>
+					</ul>
+					</p>
+					<br >
+					<h4> HOW WE USE YOUR INFORMATION</h4>
+					<p> We do not disclose any nonpublic personal information about our customers or former customers to anyone, except as permitted by law.<br />
+
+					In order to make improvements to our website, when you visit our website, we may collect non-personal information about the browser, IP address or operating system you are using. We may look at what site you came from, or what site you visit when you leave our website. We do not sell or disclose this individual user information, profile information or generic system information to third parties.<br />
+						
+					When you apply for a mortgage loan with Best in Funding, we restrict access to nonpublic personal information about you to those employees who need to know that information to provide products and services to you. We maintain physical, electronic and procedural safeguards that comply with federal regulations to guard your nonpublic personal information.<br />
+						
+					When you apply for a mortgage loan with us through this website, you can always review and request changes to personal information collected through this website by contacting the loan originator or processor assigned to your loan application.</p>
+					<br/>
+					<h4>USE OF COOKIES</h4>
+					<p>Our web site may use “cookies” to measure site activity and to customize information to fit your preferences. Cookies enable the site to remember who you are. We do not record personal or sensitive information in our cookies.</p>
+					<br/>
+					<h4>DEFINITION OF COOKIES</h4>
+					<p>A “cookie” is a small piece of information sent by a web server to a web browser enabling the browser to remember specific bits of information. The information stored within a cookie can be read only by the web server that originally sent the cookie.</p>
+					<br/>
+					<h4>TYPES OF COOKIES</h4>
+					<p>The two types of cookies are session cookies and persistent cookies. The key difference between session cookies and persistent cookies is the time of expiration. Session cookies expire at the end of the session and Persistent cookies do not expire at the end of the session.</p>
+					<br/>
+					<h4>HOW YOU CAN CONTROL COOKIES</h4>
+					<p>If you wish not to accept cookies and prevent Best in Funding from tracking your visits across multiple websites, you can configure your browser to reject all cookies or notify you when a cookie is set. Most browsers give you an ability to control and block cookies. If you block cookies on your browser, certain features on our website may not work.</p>
+					
+					<p>
+					We take your online privacy seriously and you can be assured that any information provided by you will be kept confidential. When we make any material changes to this policy, we make them immediately available to you on this website. If you have a question or would like more information contact us.</p>
+					<br/>	
+					
+					<h4> CALIFORNIA DO NOT TRACK NOTICE</h4> 
+					<p>Under California law, website and online service operators are required to disclose how they respond to web browser “do not track” signals or other similar mechanisms that provide consumers the ability to exercise choice regarding the collection of personal information about a consumer's online activities over time and across third party websites, to the extent the operator engages in that collection. Best in Funding  does not track our customer's personal information over time and across third-party websites and therefore this requirement does not apply to us.<br/> 
+					California law also requires website and online service operators to disclose whether third parties may collect personal information about their user's online activities over time and across different sites when the users use the operator's website or service. Third parties that have content or services on our site such as a social feature, analytics service, or an advertising network partner, may obtain information about your browsing or usage habits but this information does not include personal information. We do not knowingly permit such third parties to collect any personal information from our site unless you directly provide it to us and we provide it to them with your consent.</p> <br/>
+					<p>To review our Privacy Notice <a href="assets/Privacy-Policy-3.2024.pdf" target="_blank">Click Here</a>.</p>
+
+					</div>
+							
+				</div>
+			</div>
+		</div>
+			</div>
+			
+			<!-- Footer Section Start -->
+			<section class="nlv2_footer nl-bg-color-brown nl-mp nl-malls">
+				<div class="nlv2_footer_wrapper">
+					<div class="container container-1290">																	
+
+						<div class="nlv2_footer_wrapper_container">
+							<div class="nlv2_footer_top pt-50 pb-50">
+								<div class="row">
+									<div class="col-12 col-lg-12 col-xl-3 col-xxl-3 col-md-6 col-sm-12 ps-0">
+										<div class="nlv2_footer_top_logo nl-footer-padding">
+											<a href="#"><img src="assets/images/logo-white.png" alt="" /></a>
+											<p class="nl-fs-18 nl-color-white-opacity nl-lh-30 pt-30 pb-30 nl-font-body">
+												Empowering dreams. From home to car, we offer tailored loans for every journey. Let us help you drive towards your goals. Your future starts with us.
+											</p>
+											<div class="nlv2_footer-social d-flex nlv2_footer-social gap-4 nl_footer_top_link">
+												<img alt="" role="presentation" width="53px" src="https://asset-service-bucket-prod.s3.amazonaws.com/8c06316f-9b90-48c0-af69-45931f8df7c6">
+												<a href="#" class="nl-button-hover overflow-hidden">
+													<span class="nl-button"><i class="nl-icon nl-icon-linkedin nl-fs-16"></i></span>
+												</a>	
+												<a href="#" class="nl-button-hover overflow-hidden">
+													<span class="nl-button"><i class="nl-icon nl-icon-facebook nl-fs-16"></i></span>
+												</a>
+												<a href="#" class="nl-button-hover overflow-hidden">
+													<span class="nl-button"><i class="nl-icon nl-icon-x-twitter nl-fs-16"></i></span>
+												</a>
+												<a href="#" class="nl-button-hover overflow-hidden">
+													<span class="nl-button"><i class="nl-icon nl-icon-instagram nl-fs-16"></i></span>
+												</a>												
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+									
+									<div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp">
+										<div class="nlv2_footer_top_link nl-mobile-mt">
+											<h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">Company</h4>
+											<ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Home</a></li>
+												<li><a href="homeloans.html" class="nl-font-body nl-fs-18 nl-lh-30">Home Loans</a></li>
+												<li><a href="auto-loans/index.html" class="nl-font-body nl-fs-18 nl-lh-30">Auto Loans</a></li>
+												<li><a href="commercial-loans.html" class="nl-font-body nl-fs-18 nl-lh-30">Commercial Loans</a></li>
+												<li><a href="about.html" class="nl-font-body nl-fs-18 nl-lh-30">About Us</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp">
+										<div class="nlv2_footer_top_link nl-mobile-mt">
+											<h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">
+												Resources
+											</h4>
+											<ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+												<li><a href="calculator.html" class="nl-font-body nl-fs-18 nl-lh-30">Calculators</a></li>
+												<li><a href="loanoptions.html" class="nl-font-body nl-fs-18 nl-lh-30">Loan Options</a></li>
+												<li><a href="https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm#eligibility" target="_blank" class="nl-font-body nl-fs-18 nl-lh-30">Learning Center</a></li>
+												<li><a href="https://www.freddiemac.com/pmms" target="_blank" class="nl-font-body nl-fs-18 nl-lh-30">Current Rates</a></li>
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Blog</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp">
+										<div class="nlv2_footer_top_link nl-mobile-mt">
+											<h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">
+												Connect
+											</h4>
+											<ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+												<li><a href="contact.html" class="nl-font-body nl-fs-18 nl-lh-30">Find a Loan Officer</a></li>
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Find a branch</a></li>
+												<li><a href="contact.html" class="nl-font-body nl-fs-18 nl-lh-30">Contact Us </a></li>
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Closed Loan Info</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp">
+										<div class="nlv2_footer_top_link nl-mobile-mt">
+											<h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">
+												Legal
+											</h4>
+											<ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">NMLS #2244475</a></li>	
+												<li><a href="https://www.nmlsconsumeraccess.org/" target="_blank" class="nl-font-body nl-fs-18 nl-lh-30">NMLS Consumer Access Page</a></li>												
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Privacy Notice</a></li>
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Disclaimers</a></li>												
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--fine print start-->
+							<div class="nl-color-white-opacity nl-fs-12">	
+								<p>For information purposes only. This is not a commitment to lend or extend credit. Information and/or dates are subject to change without notice. All loans are subject to credit approval. Best in Funding, Inc. NMLS# 2244475 Equal Housing Lender (NMLS consumer access: https://www.nmlsconsumeraccess.org/_)</p>
+							</div>
+							<!--fine print end-->
+							<div class="nlv2_footer_bottom d-flex justify-content-between pt-25 pb-25 nl-dw nl-cr">
+								<p class="nl-f16 nl-fw4 nl-bcl nl-color-white nl-ffb">© Best In Funding, Inc. 2024 | All Rights Reserved</p>
+								<div class="nlv2_footer_bottom_link d-flex justify-content-between gap-3 nl-dw nl-ac">
+									<a href="#" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb" data-replace="Terms &amp; Condition"> <span class="nl_animation_text_linksp nl-color-white">Terms &amp; Condition</span></a>
+									<a href="privacy-policy.html" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb" data-replace="Privacy Policy"> <span class="nl_animation_text_linksp nl-color-white">Privacy Policy</span></a>
+									<a href="#" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb" data-replace="Sitemap"> <span class="nl_animation_text_linksp nl-color-white">Sitemap</span></a>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!-- Footer Section End -->
+		</div>
+	</div>
+	
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/lity.min.js"></script>
+
+	<script src="assets/js/gsap.min.js"></script>
+	<script src="assets/js/locomotive-scroll.min.js"></script>
+	<script src="assets/js/ScrollTrigger.min.js"></script>
+	<script src="assets/js/ScrollToPlugin.min.js"></script>
+	<script src="assets/js/SplitText.min.js"></script>
+
+	<script src="assets/js/marquee.min.js"></script>
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function() {
+			fetch("_header.html")
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById("header-container").innerHTML = data;
+			})
+			.catch(error => console.error('Error loading header:', error));
+		});
+
+		document.addEventListener("DOMContentLoaded", function() {
+			fetch("_footer.html")
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById("footer-container").innerHTML = data;
+			})
+			.catch(error => console.error('Error loading header:', error));
+		});
+
+		let USDollar = new Intl.NumberFormat('en-US', {
+			style: 'currency',
+			currency: 'USD',
+		});
+
+		let Percentage = (val) => {
+			return val + '%';
+		}
+
+		function updateTotal() {
+			let homePrice = parseFloat(document.getElementById("homePriceId").value) || 0;
+			let downPayment = parseFloat(document.getElementById("downPaymentId").value) || 0;
+			let propertyTaxes = parseFloat(document.getElementById("propertyTaxesId").value) || 0;
+			let homeownersInsurance = parseFloat(document.getElementById("homeownersInsuranceId").value) || 0;
+			let hoaFees = parseFloat(document.getElementById("hoaFeesId").value) || 0;
+
+
+			let P = homePrice - downPayment;
+			let r = parseFloat(document.getElementById("interestRateId").value) / 1200; 
+			let n = 30 * 12; 
+
+			let monthlyMortgagePayment = (P * r * Math.pow(1 + r, n)) / (Math.pow(1 + r, n) - 1);
+
+			let total = monthlyMortgagePayment + (propertyTaxes + homeownersInsurance + hoaFees) / 12;
+
+
+			document.getElementById("total").textContent = USDollar.format(total.toFixed(2));
+
+
+			let breakdownItems = [
+				{ title: "Principal & Interest", value: monthlyMortgagePayment },
+				{ title: "Property Taxes", value: propertyTaxes / 12 },
+				{ title: "Home Insurance", value: homeownersInsurance / 12 },
+				{ title: "HOA Fees", value: hoaFees / 12 },
+				];
+
+			let breakdownHTML = breakdownItems.map(item => `
+				<li class="menu-list__item">
+				<h4 class="menu-list__item-title">
+				<span class="item_title">${item.title}</span>
+				<span class="dots"></span>
+				<span class="item_price">${USDollar.format(item.value)}</span>
+				</h4>
+				</li>
+				`).join("");
+
+			document.querySelector(".menu-list__items").innerHTML = breakdownHTML;
+		}
+
+
+		$('input[type="range"]').on("change", function() {
+			updateTotal();
+		});
+
+
+		updateTotal();
+
+		function updateDownPayment() {
+    			let homePriceId = parseFloat(document.getElementById("homePriceId").value) || 0;
+			document.getElementById("homePrice").value = USDollar.format(homePriceId);
+
+    		let downPaymentMax = homePriceId * 0.1;
+			let downPaymentInput = document.getElementById("downPaymentId");
+
+			downPaymentInput.max = downPaymentMax;
+
+			let downPaymentCurrent = parseFloat(downPaymentInput.value);
+			if (downPaymentCurrent > downPaymentMax) {
+				downPaymentInput.value = downPaymentMax;
+			}
+
+			document.getElementById("downPayment").textContent = USDollar.format(downPaymentInput.value);
+
+			updateTotal();
+		}
+
+
+	</script>
+</body>
+</html>

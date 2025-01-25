@@ -1,0 +1,644 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>NestLand</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/iconsax-style.css" />
+	<link rel="stylesheet" href="assets/css/iconly.css" />
+	<link rel="stylesheet" href="assets/css/lity.min.css" />
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+</head>
+<body class="nla_demo_one">
+
+	<div class="preloader" id="preloader">
+		<svg viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1">
+			<path d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+		</svg>
+		<div class="inner">
+			<canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
+			<figure><img src="assets/images/preloder.svg" alt="Image"></figure>
+			<small>Loading</small>
+		</div>
+	</div>
+
+
+	<!-- Header Section Start -->
+	<!-- Header Start -->
+	<div class="smooth-scroll" data-scroll-container>
+		<div class="section-wrapper" data-scroll-section>
+			<header>
+				<div class="nl-main-header bg-white pt-25 pb-35">
+					<div class="container container-1290">
+						<div class="row align-items-center">
+							<div class="col-4 col-lg-2">
+								<div class="nl-logo">
+									<a href="index.html">
+										<img src="assets/images/logov2.svg" alt="" />
+									</a>
+								</div>
+							</div>
+							<div class="col-8 col-lg-7 d-flex align-items-center justify-content-lg-center justify-content-end">
+								<nav class="nl-navmenu text-center ps-xl-5 ul-li d-none d-lg-block">
+									<ul>
+										<li><a href="homeloans.html">Home Loans</a></li>
+										<li><a href="autoloans.html">Auto Loans</a></li>
+										<li class="has-submenu">
+											<a href="javascript:void(0)">Resources</a>
+											<ul class="submenu-wrapper">
+												<li><a href="calculator.html">Calculators</a></li>
+												<li><a href="loanoptions.html">Loan Options</a></li>
+												<li><a href="#">Learning Center</a></li>
+												<li><a href="#">Offers</a></li>
+												<li><a href="#">Blogs</a></li>
+											</ul>
+										</li>
+										<li><a href="">Find a Loan Officer</a></li>
+									</ul>
+								</nav>
+								<button type="button" class="header-toggle offcanvus-toggle d-none">
+									<span class="offcanvas_border_one"></span>
+									<span></span>
+								</button>
+								<button type="button" class="header-toggle mobile-menu-toggle d-lg-none">
+									<span class="offcanvas_border_one"></span>
+									<span></span>
+								</button>
+							</div>
+							<div class="col-2 col-lg-3 d-none d-lg-block">
+								<div class="d-flex flex-row justify-content-between align-items-center">
+									<div class="nl__section-button nl-about-button has_fade_anim">
+										<a href="https://bestinfundingmortgage.mymortgage-online.com/borrower-app/registration/?lar=admin&workFlowId=188654&action=login&dest=/loan-app/&siteId=9296176930" class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-inline-flex position-relative nl-color-black">
+											<span class="position-relative z-1">APPLY NOW</span>
+											<span class="nl__btn-hover-style"></span>
+										</a>
+									</div>
+									<button type="button" class="header-toggle mobile-menu-toggle">
+										<span class="offcanvas_border_one"></span>
+										<span></span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			<!--mobile menu start-->
+			<div class="mobile-menu ul-li">
+				<a href="javascript:void(0)" class="close"><i class="isax icon-close-circle1"></i></a>
+				<a href="index.html" class="logo"><img src="assets/images/logov2.svg" alt="logo" class="img-fluid" /></a>
+				<ul class="mobile-nav-menu">
+					<li><a href="homeloans.html">Home Loans</a></li>
+					<li><a href="autoloans.html">Car Loans</a></li>
+					<li class="has-submenu">
+						<a href="#">Resources</a>
+						<i class="isax icon-arrow-down1"></i>
+						<ul class="submenu-wrapper">
+							<li><a href="calculator.html">Calculators</a></li>
+							<li><a href="loanoptions.html">Loan Options</a></li>
+							<li><a href="#">Learning Center</a></li>
+							<li><a href="#">Offers</a></li>
+							<li><a href="#">Blogs</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact</a></li>
+				</ul>
+			</div>
+
+			<!-- Header Section End -->
+
+			<!-- Hero Section Start -->
+			<section class="nlv2_hero">
+				<div class="nlv2_hero_wrapper">
+					<div class="container container-1290">
+						<div class="nlv2_hero_wrapper_container pt-70 pb-100">
+							<div class="row position-relative">
+								<div class="col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+									<div class="nlv2_hero_left position-relative has_fade_anim">
+										<img src="assets/images/hero/left.jpg" alt="" class="nl-border-radius-5" />
+										<div class="nlv2_hero_left_box position-absolute p-3 nl-bg-color-b nl-bg-color-brown text-end rounded-1 has_fade_anim">
+											<a href="#" class="hover"><i class="nl-icon nl-icon-arrow-right nl-color-white nl-fs-18"></i></a>
+											<h4 class="nl-fs-22 nl-font-heading nl-lh-26 pt-65 nl-color-white text-start">
+												Finance a New Home
+											</h4>
+										</div>
+									</div>
+								</div>
+								<div class="col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12 nlv2_hero_middole">
+									<h2 class="nl-fs-100 nl-font-heading nl-lh-26 nl-color-black nlv2_hero_hading_one has_char_anim">
+										Homeownership 
+									</h2>
+									<h2 class="nl-fs-100 nl-font-heading nl-lh-36 nl-color-black nlv2_hero_hading_two has_char_anim">
+										Made Simple
+									</h2>
+									<p class="nl-fs-16 nl-font-body nl-lh-24 nl-color-gray-800 has_text_move_anim">
+										Discover the easiest route to homeownership with us. Streamline your journey with expert guidance and simplified processes. Start your path to a new home today!
+									</p>
+								</div>
+								<div class="col-lg-4 col-xl-4 col-xxl-4 col-md-12 col-sm-12">
+									<div class="nlv2_hero_right">
+										<div class="nlv2_hero_right-box border-1 nl-border-radius-5 nl-border-cl border pt-10 pl-15 pr-15 pb-10 has_fade_anim">
+											<div class="nlv2_hero_right-box--single">
+												<p class="nl-fs-16 nl-font-body nl-lh-25 nl-color-black has_char_anim">
+													Happy Families
+												</p>
+												<div class="nlv2_hero_right-box--dtailes pt-45">
+													<h6 class="nl-fs-20 nl-font-body nl-lh-24 nl-fw-800 nl-color-black has_char_anim">
+														47,000+
+													</h6>
+													<p class="nl-fs-16 nl-font-body nl-lh-24 nl-fw-500 nl-color-black has_char_anim">
+														Families Helped Purchase a Home
+													</p>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="nlv2_hero_right-imge">
+										<img src="assets/images/hero/right.jpg" alt="" class="nl-border-radius-5" />
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+			<!-- Hero Section End -->
+
+			<!-- Searvice Section Start -->
+			<div class="nlv2_searvice nl-bg-color-gray-100">
+				<div class="nlv2_searvice_wrapper">
+					<div class="container container-1290">
+						<div class="nlv2_searvice_wrapper_container nl-section-pt nl-section-pb">
+							<div class="nlv2_searvice-top-part pb-60">
+								<p class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 pb-20 text-center has_fade_anim">
+									NOW
+								</p>
+								<h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black nl-width-45 m-auto text-center has_fade_anim">
+									Unlock Your Dream Home Today
+								</h2>
+							</div>
+							<div class="nlv2_searvice-box">
+								<div class="row g-30 has_fade_anim">
+									<div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+										<div class="nlv2_searvice-box-main text-center nl-bg-color-white pt-40 pb-60 pl-40 pr-40 nl-border-radius-5 nl-button-hover">
+											<div class="nl-button overflow-hidden">
+												<i class="nl-icon nl-icon-home-2 nl-fs-65 nl-color-brown"></i>
+											</div>
+
+											<h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black pt-30 pb-20">
+												Find a Loan Officer
+											</h6>
+											<p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+												Start your homeownership journey by finding the ideal loan officer to guide you.
+											</p>
+										</div>
+									</div>
+									<div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+										<div class="nlv2_searvice-box-main text-center nl-bg-color-white pt-40 pb-60 pl-40 pr-40 nl-border-radius-5 nl-button-hover">
+											<div class="nl-button overflow-hidden">
+												<i class="nl-icon nl-icon-home-3 nl-fs-65 nl-color-brown"></i>
+											</div>
+
+											<h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black pt-30 pb-20">
+												Loan Options
+											</h6>
+											<p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+												Begin your journey to homeownership—find tools and resources to assist you.
+											</p>
+										</div>
+									</div>
+									<div class="col-12 col-lg-4 col-xl-4 col-xxl-4 col-md-6 col-sm-12">
+										<div class="nlv2_searvice-box-main text-center nl-bg-color-white pt-40 pb-60 pl-40 pr-40 nl-border-radius-5 nl-button-hover">
+											<div class="nl-button overflow-hidden">
+												<i class="nl-icon nl-icon-sofa nl-fs-65 nl-color-brown"></i>
+											</div>
+											<h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black pt-30 pb-20">
+												Homebuyer Assistance
+											</h6>
+											<p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+												Start your homebuying journey with us—discover tools and resources to guide you.
+											</p>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Searvice Section End -->
+
+			<!-- About Section Start -->
+
+			<div class="nlv2_about nl-bg-color-gray-100 nl-section-pb">
+				<div class="nlv2_about_wrapper">
+					<div class="container container-1290">
+						<div class="nlv2_about_wrapper_container">
+							<div class="row">
+								<div class="col-12 col-lg-6 align-self-center has_fade_anim text-center">
+									<div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+
+										<img src="assets/images/homeloans.jpg" class="" />
+									</div>
+									<br />
+									<h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-center pb-15 text-md-center has_fade_anim">
+										Home Loans
+									</h2>
+									<div class="nl__section-button nl-about-button has_fade_anim">
+										<a href="step.html" class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-inline-flex position-relative nl-color-black">
+											<span class="position-relative z-1">Get Pre-Qualified</span>
+											<span class="nl__btn-hover-style"></span>
+										</a>
+									</div>
+								</div>
+								<div class="col-12 col-lg-6 justify-content-center has_fade_anim text-center">
+									<div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+										<img src="assets/images/autoloans.jpg" />
+									</div>
+									<br />
+									<h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-center pb-15 text-md-center has_fade_anim">
+										Auto Loans
+									</h2>
+									<div class="nl__section-button nl-about-button has_fade_anim">
+										<a href="step.html" class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-inline-flex position-relative nl-color-black">
+											<span class="position-relative z-1">Get Pre-Qualified</span>
+											<span class="nl__btn-hover-style"></span>
+										</a>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+			<!-- About Section End -->
+
+			<!-- Newsleater Section Start -->
+			<div class="nlv2_newsleatter nl-bg-color-gray-100 nl-section-pb">
+				<div class="nlv2_newsleatter_wrapper">
+					<div class="container container-1290">
+						<div class="nlv2_newsleatter_wrapper_container nl-bg-color-white nl-border-radius-5 overflow-hidden has_fade_anim">
+							<div class="row">
+								<div class="col-12 col-lg-4 col-xl-4 col-xxl-5 col-md-12 col-sm-12">
+									<div class="nlv2_newsleatter-left position-relative text-end has_fade_anim">
+										<img src="assets/images/newsletter/newsletter1.png" alt="" class="pt-50" />
+									</div>
+								</div>
+								<div class="col-12 col-lg-2 col-xl-2 col-xxl-2 col-md-12 col-sm-12 d-none d-lg-block"></div>
+								<div class="col-12 col-lg-5 col-xl-5 col-xxl-5 col-md-12 col-sm-12 align-self-center">
+									<div class="nlv2_newsleatter-right pl-20 pr-20 pb-20">
+										<h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-start pb-15 text-md-start has_fade_anim">
+											A Loan for Everyone
+										</h2>
+										<p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pb-1 has_fade_anim">
+											Mortgages Tailored to Your Unique Needs
+										</p>
+										<div class="row pt-25">
+											<div class="col-12 col-lg-5 col-xl-5 col-xxl-5 col-md-6 col-sm-12 mt-3 mt-lg-0 mt-md-0 mt-sm-0">
+												<div class="nl__section-button nl-about-button has_fade_anim">
+													<a href="#" class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-lg-inline-flex position-relative nl-color-black">
+														<span class="position-relative z-1">Call Us Now</span>
+														<span class="nl__btn-hover-style"></span>
+													</a>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+								<div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Newsleater Section End -->
+
+			<!-- testimonial Section Start -->
+			<div class="nlv2_testimonial nl-bg-color-black nl-section-pt pb-95">
+				<div class="nlv2_testimonial_wrapper">
+					<div class="container container-1290">
+						<div class="nlv2_testimonial_wrapper_container">
+							<div class="row">
+								<div class="col-12 col-lg-5 col-xl-5 col-xxl-5 col-md-12 col-sm-12">
+									<div class="nlv2_testimonial-bg-content">
+										<h6 class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 text-center text-lg-start text-md-start has_fade_anim">
+											Clients Testimonial
+										</h6>
+										<h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-white m-auto text-center text-lg-start pb-45 pt-20 text-md-start has_fade_anim">
+											Building communities with tailored home and auto loans
+										</h2>
+										<i class="nl-icon nl-icon-quote nlv2_testimonial_quote nl-fs-96 has_fade_anim"></i>
+									</div>
+								</div>
+								<div class="col-12 col-lg-7 col-xl-7 col-xxl-7 col-md-12 col-sm-12">
+									<div class="swiper nlv2_testimonial_slide">
+										<div class="nl-testimonial-pagination d-none d-sm-inline-flex">
+											<div class="swiper-button-next"></div>
+											<div class="swiper-button-prev"></div>
+										</div>
+										<div class="swiper-wrapper">
+											<div class="swiper-slide">
+												<div class="nlv2_testimonial_slide_item">
+													<div class="nlv2_testimonial_slide_item_top">
+														<div class="nlv2_testimonial_slide_item_top_img d-flex align-items-center gap-4">
+															<img src="assets/images/testimonial/client1.png" alt="" />
+															<div class="nlv2_testimonial_slide_item_top_review">
+																<p class="nl-fs-20 nl-font-body nl-lh-19 nl-color-white nl-fw-800 nl-ls-21 text-center text-lg-start text-md-start mb-20">
+																	Jane Cooper
+																</p>
+																<div class="nl-review">
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="nlv2_testimonial_slide_item_buttom pt-45">
+														<p class="nl-fs-24 nl-font-body nl-lh-43 nl-color-white fw-light">
+															Et nunc purus purus egestas. Nisi ultrices morbi dui placerat nisiy enim Etionio nunc purus purus egestas. Nisi ultrices morbi dui placerat nisi enim des purus egestas purus
+															purus e Et nunc purus purus e as Nisi ultricesdui placerats nisiy enim Et nunc purus purus
+														</p>
+													</div>
+												</div>
+											</div>
+											<div class="swiper-slide">
+												<div class="nlv2_testimonial_slide_item has_fade_anim">
+													<div class="nlv2_testimonial_slide_item_top">
+														<div class="nlv2_testimonial_slide_item_top_img d-flex align-items-center gap-4">
+															<img src="assets/images/testimonial/client1.png" alt="" />
+															<div class="nlv2_testimonial_slide_item_top_review">
+																<p class="nl-fs-20 nl-font-body nl-lh-19 nl-color-white nl-fw-800 nl-ls-21 text-center text-lg-start text-md-start mb-20">
+																	Robert Fox
+																</p>
+																<div class="nl-review">
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																	<span><i class="nl-icon nl-icon-star nl-colo"></i></span>
+																</div>
+															</div>
+														</div>
+													</div>
+													<div class="nlv2_testimonial_slide_item_buttom pt-45">
+														<p class="nl-fs-24 nl-font-body nl-lh-43 nl-color-white fw-light">
+															Et nunc purus purus egestas. Nisi ultrices morbi dui placerat nisiy enim Etionio nunc purus purus egestas. Nisi ultrices morbi dui placerat nisi enim des purus egestas purus
+															purus e Et nunc purus purus e as Nisi ultricesdui placerats nisiy enim Et nunc purus purus
+														</p>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- testimonial Section End -->
+
+			<!-- Dsign Section Start -->
+			<div class="nlv2_dsign nl-bg-color-gray-100">
+				<div class="nlv2_dsign_wrapper">
+					<div class="container container-1290">
+						<div class="nlv2_dsign_wrapper_container nl-section-pt nl-section-pb">
+							<div class="nlv2_dsign-box">
+								<div class="row g-30">
+									<div class="col-lg-6 col-md-6">
+										<div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+											<img src="assets/images/dsign/dsign1.jpg" alt="" />
+											<div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+												<a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+													Conventional Loan
+												</a>
+												<p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+													"I want a home loan option with excellent advantages for qualified borrowers."
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-6 col-md-6">
+										<div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+											<img src="assets/images/carloan2.jpg" alt="" />
+											<div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+												<a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+													Jumbo Loan
+												</a>
+												<p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+													"I'm ready to buy my dream home."
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+											<img src="assets/images/dsign/dsign3.jpg" alt="" />
+											<div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+												<a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+													FHA Loan
+												</a>
+												<p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+													"I’m interested in a low down payment and flexible qualifying criteria."
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+											<img src="assets/images/dsign/dsign5.jpg" alt="" />
+											<div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+												<a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+													USDA Loan
+												</a>
+												<p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+													"I want to live in a small town or rural area."
+												</p>
+											</div>
+										</div>
+									</div>
+									<div class="col-lg-4 col-md-6">
+										<div class="nlv2_dsign-box-main nl-bg-color-white position-relative nl-border-radius-5 nl-button-hover has_fade_anim image-hover">
+											<img src="assets/images/dsign/dsign4.jpg" alt="" />
+											<div class="nlv2_dsign-box-content position-absolute nl-bg-color-white mr-20 ml-20 nl-border-radius-5 pl-30 pt-30 pb-30">
+												<a href="#" class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+													VA Loan
+												</a>
+												<p class="nl-fs-18 nl-font-body nl-lh-26 nl-color-gray-800">
+													"I’m a Military Veteran or am actively serving."
+												</p>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Dsign Section End -->
+
+			<!-- Marque section Start-->
+			<section class="nl-marque-section nl-bg-color-gray-100 pb-135">
+				<div class="marquees_wrapper has_fade_anim">
+					<h2 class="nl-color-black nl-fs-59 nl-fw-500 nl-lh-67 nl-font-body mr-80">
+						<span class="item mr-40">
+							<i class="nl-icon nl-icon-house-location-2 nl-color-brown mr-20"></i>
+							Home Loans <span class="nl__marqueue-text-stroke">Auto Loans</span>
+						</span>
+						<span class="item">
+							<i class="nl-icon nl-icon-house-location-2 nl-color-brown mr-20"></i>
+							Home Loans <span class="nl__marqueue-text-stroke">Auto Loans</span>
+						</span>
+					</h2>
+				</div>
+			</section>
+			<!-- Marque section End-->
+
+			<!-- Team Section Start -->
+			<div class="nlv2_team nl-bg-color-gray-100 nl-section-pb">
+				<div class="nlv2_team_wrapper">
+					<div class="container container-1290">
+						<div class="nlv2_team_wrapper_container position-relative">
+							<div class="row">
+								<div class="col-12 col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+									<div class="nlv2_team-bg-content">
+										<img src="assets/images/team/building.png" alt="" class="bottom-0 position-absolute" />
+										<h6 class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 text-center text-lg-start text-md-start has_fade_anim">
+											Our Creative Members
+										</h6>
+										<h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-start pb-15 pt-20 text-md-start has_fade_anim">
+											We are family
+										</h2>
+									</div>
+								</div>
+								<div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+								<div class="col-12 col-lg-8 col-xl-8 col-xxl-8 col-md-12 col-sm-12">
+									<div class="row g-3 nl-mobile-mt">
+										<div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+											<div class="nlv2_team-card has_fade_anim">
+												<img src="assets/images/team/team1.jpg" alt="" class="nl-border-radius-5" />
+												<div class="row g-0">
+													<div class="col-lg-9">
+														<div class="nlv2_team-card-content text-center position-relative pt-40 pb-45 nl-bg-color-white nl-border-radius-5 text-center">
+															<h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+																Jacob Jones
+															</h6>
+															<p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pt-1 pb-15">
+																Web Designer
+															</p>
+															<div class="nlv2_team-card-content-social d-flex justify-content-center">
+																<span class="nl-button-hover"></span>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-facebook"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-twitter"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-instagram"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-pinterest"></i></span>
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-3 d-none d-lg-block"></div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+											<div class="nlv2_team-card has_fade_anim">
+												<img src="assets/images/team/team2.jpg" alt="" class="nl-border-radius-5" />
+												<div class="row g-0">
+													<div class="col-lg-9">
+														<div class="nlv2_team-card-content text-center position-relative pt-40 pb-45 nl-bg-color-white nl-border-radius-5 text-center">
+															<h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+																Kristin Watson
+															</h6>
+															<p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pt-1 pb-15">
+																Medical Assistant
+															</p>
+															<div class="nlv2_team-card-content-social d-flex justify-content-center">
+																<span class="nl-button-hover"></span>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-facebook"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-twitter"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-instagram"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-pinterest"></i></span>
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-3 d-none d-lg-block"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Team Section End -->
+
+			<div id="footer-container"></div>
+		</div>
+	</div>
+	
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/lity.min.js"></script>
+
+	<script src="assets/js/gsap.min.js"></script>
+	<script src="assets/js/locomotive-scroll.min.js"></script>
+	<script src="assets/js/ScrollTrigger.min.js"></script>
+	<script src="assets/js/ScrollToPlugin.min.js"></script>
+	<script src="assets/js/SplitText.min.js"></script>
+
+	<script src="assets/js/marquee.min.js"></script>
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function() {
+			fetch("_header.html")
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById("header-container").innerHTML = data;
+			})
+			.catch(error => console.error('Error loading header:', error));
+		});
+
+		document.addEventListener("DOMContentLoaded", function() {
+			fetch("_footer.html")
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById("footer-container").innerHTML = data;
+			})
+			.catch(error => console.error('Error loading header:', error));
+		});
+	</script>
+</body>
+</html>

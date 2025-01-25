@@ -1,0 +1,539 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Best In Funding</title>
+	<!-- Favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="assets/images/favicon.png" />
+
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css" />
+	<link rel="stylesheet" href="assets/css/iconsax-style.css" />
+	<link rel="stylesheet" href="assets/css/iconly.css" />
+	<link rel="stylesheet" href="assets/css/lity.min.css" />
+	<link rel="stylesheet" href="assets/css/swiper-bundle.min.css" />
+	<link rel="stylesheet" href="assets/css/odometer-theme-default.css" />
+	<link rel="stylesheet" href="assets/css/style.css" />
+	<link rel="stylesheet" href="assets/css/responsive.css" />
+	<style type="text/css">
+
+		input[type='range']::-webkit-slider-thumb {
+			background: #003b73;
+			border: 2px solid black;
+		}
+
+		.theme-bg {
+			background-color: #003b73;
+		}
+
+		input[type='range'] {
+			accent-color: #000!important;
+		}
+
+		.w-5 {
+			width: 5%;
+		}
+
+		.w-10 {
+			width: 10%;
+		}
+
+		.w-15 {
+			width: 15%;
+		}
+
+		.w-20 {
+			width: 20%;
+		}
+
+		.w-30 {
+			width: 30%;
+		}
+
+		.jost {
+			font-family: Jost;
+		}
+
+		.menu-list {
+			float: left;
+			width: 100%;
+			align-items: end;
+		}
+
+		.menu-list hr {
+			margin: 3px 0
+		}
+
+		.menu-list span.dots {
+			position: absolute;
+			bottom: 5px;
+			left: 0;
+			right: 0;
+			z-index: 1;
+			margin: 0;
+			border: 0;
+			height: 3px;
+			display: block;
+			background-image: radial-gradient(circle closest-side, #b3b3b3 99%, transparent 1%);
+			background-position: bottom;
+			background-size: 6px 3px;
+			background-repeat: repeat-x
+		}
+
+		.menu-list__title {
+			text-align: left;
+			text-transform: uppercase;
+			letter-spacing: 1.85px;
+			font-weight: 600;
+		}
+
+		.menu-list__item {
+			position: relative;
+			margin-bottom: 2px;
+			list-style: none;
+		}
+
+		.menu-list__item:last-child {
+			margin-bottom: 0
+		}
+
+		.menu-list__item-title {
+			position: relative;
+			margin-top: 0;
+			margin-bottom: 5px;
+			padding-right: 96px;
+			text-align: left;
+			letter-spacing: 1.25px;
+		}
+
+		.menu-list__item-title .item_title {
+			position: relative;
+			z-index: 5;
+			background-color: white;
+			font-size: 16px;
+			font-family: Jost;
+		}
+
+		.menu-list__item-title .item_price {
+			position: absolute;
+			right: 0;
+			z-index: 5;
+			bottom: 3px;
+			background-color: white;
+			font-size: 16px;
+			font-family: Jost;
+		}
+		
+
+	</style>
+</head>
+<body class="nla_demo_one">
+	<div class="preloader" id="preloader">
+		<svg viewBox="0 0 1920 1080" preserveAspectRatio="none" version="1.1">
+			<path d="M0,0 C305.333333,0 625.333333,0 960,0 C1294.66667,0 1614.66667,0 1920,0 L1920,1080 C1614.66667,1080 1294.66667,1080 960,1080 C625.333333,1080 305.333333,1080 0,1080 L0,0 Z"></path>
+		</svg>
+		<div class="inner">
+			<canvas class="progress-bar" id="progress-bar" width="200" height="200"></canvas>
+			<figure><img src="assets/images/preloader.png" alt="Image"></figure>
+			<small>Loading</small>
+		</div>
+	</div>
+
+
+	<!-- Header Section Start -->
+	<!-- Header Start -->
+	<div class="smooth-scroll" data-scroll-container>
+		<div class="section-wrapper" data-scroll-section>
+			<header>
+				<div class="nl-main-header bg-white pt-25 pb-35">
+					<div class="container container-1290">
+						<div class="row align-items-center">
+							<div class="col-4 col-lg-2">
+								<div class="nl-logo">
+									<a href="index.html">
+										<img src="assets/images/logo-blue.png" alt="" />
+									</a>
+								</div>
+							</div>
+							<div class="col-8 col-lg-7 d-flex align-items-center justify-content-lg-center justify-content-end">
+								<nav class="nl-navmenu text-center ps-xl-5 ul-li d-none d-lg-block">
+									<ul>
+										<li><a href="homeloans.html">Home Loans</a></li>
+										<li><a href="auto-loans/index.html">Auto Loans</a></li>
+										<li><a href="commercial-loans.html">Commercial Loans</a></li>
+										<li class="has-submenu">
+											<a href="javascript:void(0)">Resources</a>
+											<ul class="submenu-wrapper">
+												<li><a href="calculator.html">Calculators</a></li>
+												<li><a href="loanoptions.html">Loan Options</a></li>
+												<li><a href="https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm#eligibility" target="_blank" >Learning Center</a></li>
+												<li><a href="https://www.freddiemac.com/pmms" target="_blank">Current Rates</a></li>
+												<li><a href="#">Blogs</a></li>
+											</ul>
+										</li>
+										<li><a href="contact.html">Find a Loan Officer</a></li>
+									</ul>
+								</nav>
+								<button type="button" class="header-toggle offcanvus-toggle d-none">
+									<span class="offcanvas_border_one"></span>
+									<span></span>
+								</button>
+								<button type="button" class="header-toggle mobile-menu-toggle d-lg-none">
+									<span class="offcanvas_border_one"></span>
+									<span></span>
+								</button>
+							</div>
+							<div class="col-2 col-lg-3 d-none d-lg-block">
+								<div class="d-flex flex-row justify-content-end align-items-center">
+									<div class="nl__section-button nl-about-button has_fade_anim me-2" style="width: 60%; text-align:center; background: var(--nl-color-brown); color: var(--nl-color-gray-100); border-radius: .2rem;">
+										<a href="https://bestinfundingmortgage.mymortgage-online.com/loan-app/?siteId=9296176930&workFlowId=188654" class="nl-fs-14 nl-fw-500 nl-lh-25 text-uppercase overflow-hidden d-lg-inline-flex position-relative">
+											<span class="position-relative z-1">APPLY NOW</span>
+											<span class="nl__btn-hover-style"></span>
+										</a>
+									</div>
+									<button type="button" class="header-toggle mobile-menu-toggle">
+										<span class="offcanvas_border_one"></span>
+										<span></span>
+									</button>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</header>
+			
+			<!--mobile menu start-->
+			<div class="mobile-menu ul-li">
+				<a href="javascript:void(0)" class="close"><i class="isax icon-close-circle1"></i></a>
+				<a href="index.html" class="logo"><img src="assets/images/logo-blue.png" alt="logo" class="img-fluid" /></a>
+				<ul class="mobile-nav-menu">
+					<li>
+						<a href="https://bestinfundingmortgage.mymortgage-online.com/loan-app/?siteId=9296176930&workFlowId=188654">APPLY NOW</a>
+					</li>
+					<li><a href="homeloans.html">Home Loans</a></li>
+					<li><a href="auto-loans/index.html">Auto Loans</a></li>
+					<li><a href="commercial-loans.html">Commercial Loans</a></li>
+					<li class="has-submenu">
+						<a href="#">Resources</a>
+						<i class="isax icon-arrow-down1"></i>
+						<ul class="submenu-wrapper">
+							<li><a href="calculator.html">Calculators</a></li>
+							<li><a href="loanoptions.html">Loan Options</a></li>
+							<li><a href="https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm#eligibility" target="_blank" >Learning Center</a></li>
+							<li><a href="https://www.freddiemac.com/pmms" target="_blank">Current Rates</a></li>
+							<li><a href="#">Blogs</a></li>
+						</ul>
+					</li>
+					<li><a href="about.html">About Us</a></li>
+					<li><a href="contact.html">Contact Us</a></li>
+				</ul>
+			</div>
+			<!--mobile menu end-->
+			
+			<!--Bredcrumb menu start-->
+
+			<section class="nlv2_bredcrumb nl-bg1 pt-140 pb-140 nl-bg-color-brown">
+				<div class="nlv2_bredcrumb_wrapper">
+					<div class="container">
+						<div class="nlv2_bredcrumb_wrapper_container">
+							<h2 class="nl-fs-48 nl-lh-62 nl-color-white nl-font-heading text-center nl-font-body pb-15 has_fade_anim">
+							FAQ</h2>
+							<div class="nlv2_bredcrumb_top nl-color-white nl-fs-18 nl-lh-30 d-flex gap-3 justify-content-center align-items-center has_fade_anim">
+								<a href="/" class="nl-color-white">Home</a>
+								<svg width="9" height="13" viewBox="0 0 9 13" fill="none"
+								xmlns="http://www.w3.org/2000/svg">
+								<path d="M2 13C1.71875 13 1.46875 12.9062 1.28125 12.7188C0.875 12.3438 0.875 11.6875 1.28125 11.3125L5.5625 7L1.28125 2.71875C0.875 2.34375 0.875 1.6875 1.28125 1.3125C1.65625 0.90625 2.3125 0.90625 2.6875 1.3125L7.6875 6.3125C8.09375 6.6875 8.09375 7.34375 7.6875 7.71875L2.6875 12.7188C2.5 12.9062 2.25 13 2 13Z"
+								fill="white"/>
+							</svg>
+							<span class="">FAQ</span>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<!--Bredcrumb menu end-->
+			<main id="primary" class="site-main">
+				<div class="container-fluid">
+
+					
+					<article id="post-616" class="post-616 page type-page status-publish hentry">
+
+
+						
+						<div class="entry-content">
+							<div data-elementor-type="wp-page" data-elementor-id="616" class="elementor elementor-616">
+								<div class="elementor-element elementor-element-c54df14 e-con-full e-flex e-con e-parent" data-id="c54df14" data-element_type="container" data-settings="{&quot;content_width&quot;:&quot;full&quot;}" data-core-v316-plus="true">
+									<div class="elementor-element elementor-element-c3f10ef elementor-widget elementor-widget-nestland_faq" data-id="c3f10ef" data-element_type="widget" data-widget_type="nestland_faq.default">
+										<div class="elementor-widget-container">
+											<!-- Faq Section Start -->
+											<section class="nlv2_faq nl-bg-color-white nl-mp nl-malls nl-section-pb nl-section-pt">
+												<div class="nlv2_faq_wrapper">
+													<div class="container container-1290">
+														<div class="nlv2_faq_wrapper_container">
+															<div class="row">
+																<div class="col-lg-6">
+																	<div class="accordion nl__faq-left" id="faqMain">
+																		<div class="accordion-item has_fade_anim" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+																			<h2 class="accordion-header" id="faqheadingdd3cffb">
+																				<button class="accordion-button  nl-fs-18 nl-lh-24 pt-20 pb-15 pl-40" type="button" data-bs-toggle="collapse" data-bs-target="#collapsedd3cffb" aria-expanded="true" aria-controls="collapsedd3cffb">
+																				How do I find a reliable real estate agent?                                            </button>
+																			</h2>
+																			<div id="collapsedd3cffb" class="accordion-collapse collapse show" aria-labelledby="faqheadingdd3cffb" data-bs-parent="#faqMain">
+																				<div class="accordion-body pt-0">
+																					<p class=" nl-color-gray-800 pt-0 nl-fs-18 nl-lh-30 pl-20 nl-color-gray-800">
+																					It is a long established fact that a reader will be distracted by the readable content of a page hjklk when looking at its hkl layout.el.                                                </p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="accordion-item has_fade_anim" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+																			<h2 class="accordion-header" id="faqheading72cb28d">
+																				<button class="accordion-button collapsed nl-fs-18 nl-lh-24 pt-20 pb-15 pl-40" type="button" data-bs-toggle="collapse" data-bs-target="#collapse72cb28d" aria-expanded="true" aria-controls="collapse72cb28d">
+																				What factors should I consider when buying a property?                                            </button>
+																			</h2>
+																			<div id="collapse72cb28d" class="accordion-collapse collapse " aria-labelledby="faqheading72cb28d" data-bs-parent="#faqMain">
+																				<div class="accordion-body pt-0">
+																					<p class=" nl-color-gray-800 pt-0 nl-fs-18 nl-lh-30 pl-20 nl-color-gray-800">
+																					It is a long established fact that a reader will be distracted by the readable content of a page hjklk when looking at its hkl layout.el.                                                </p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="accordion-item has_fade_anim" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+																			<h2 class="accordion-header" id="faqheadingb896922">
+																				<button class="accordion-button collapsed nl-fs-18 nl-lh-24 pt-20 pb-15 pl-40" type="button" data-bs-toggle="collapse" data-bs-target="#collapseb896922" aria-expanded="true" aria-controls="collapseb896922">
+																				How can I determine the value of my property?                                            </button>
+																			</h2>
+																			<div id="collapseb896922" class="accordion-collapse collapse " aria-labelledby="faqheadingb896922" data-bs-parent="#faqMain">
+																				<div class="accordion-body pt-0">
+																					<p class=" nl-color-gray-800 pt-0 nl-fs-18 nl-lh-30 pl-20 nl-color-gray-800">
+																					It is a long established fact that a reader will be distracted by the readable content of a page hjklk when looking at its hkl layout.el.                                                </p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="accordion-item has_fade_anim" style="translate: none; rotate: none; scale: none; opacity: 0.9401; transform: translate3d(0px, 2.9965px, 0px);">
+																			<h2 class="accordion-header" id="faqheadingf780da3">
+																				<button class="accordion-button collapsed nl-fs-18 nl-lh-24 pt-20 pb-15 pl-40" type="button" data-bs-toggle="collapse" data-bs-target="#collapsef780da3" aria-expanded="true" aria-controls="collapsef780da3">
+																				How do I find a reliable real estate agent?                                            </button>
+																			</h2>
+																			<div id="collapsef780da3" class="accordion-collapse collapse " aria-labelledby="faqheadingf780da3" data-bs-parent="#faqMain">
+																				<div class="accordion-body pt-0">
+																					<p class=" nl-color-gray-800 pt-0 nl-fs-18 nl-lh-30 pl-20 nl-color-gray-800">
+																					It is a long established fact that a reader will be distracted by the readable content of a page hjklk when looking at its hkl layout.el.                                                </p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+																<div class="col-lg-6">
+																	<div class="accordion nl__faq-left" id="faqMainRight">
+																		<div class="accordion-item has_fade_anim" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+																			<h2 class="accordion-header" id="faqheadingRt0088078">
+																				<button class="accordion-button collapsed nl-fs-18 nl-lh-24 pt-20 pb-15 pl-40" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRt0088078" aria-controls="collapseRt0088078">
+																				What sets your agency apart in the real estate market?                                            </button>
+																			</h2>
+																			<div id="collapseRt0088078" class="accordion-collapse collapse " aria-labelledby="faqheadingRt0088078" data-bs-parent="#faqMainRight">
+																				<div class="accordion-body pt-0">
+																					<p class=" nl-color-gray-800 pt-0 nl-fs-18 nl-lh-30 pl-20 nl-color-gray-800">
+																					It is a long established fact that a reader will be distracted by the readable content of a page hjklk when looking at its hkl layout.el.                                                </p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="accordion-item has_fade_anim" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+																			<h2 class="accordion-header" id="faqheadingRt2b7b3e3">
+																				<button class="accordion-button collapsed nl-fs-18 nl-lh-24 pt-20 pb-15 pl-40" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRt2b7b3e3" aria-controls="collapseRt2b7b3e3">
+																				How do you determine property values for appraisals?                                            </button>
+																			</h2>
+																			<div id="collapseRt2b7b3e3" class="accordion-collapse collapse " aria-labelledby="faqheadingRt2b7b3e3" data-bs-parent="#faqMainRight">
+																				<div class="accordion-body pt-0">
+																					<p class=" nl-color-gray-800 pt-0 nl-fs-18 nl-lh-30 pl-20 nl-color-gray-800">
+																					It is a long established fact that a reader will be distracted by the readable content of a page hjklk when looking at its hkl layout.el.                                                </p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="accordion-item has_fade_anim" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+																			<h2 class="accordion-header" id="faqheadingRtc7bf6bd">
+																				<button class="accordion-button collapsed nl-fs-18 nl-lh-24 pt-20 pb-15 pl-40" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRtc7bf6bd" aria-controls="collapseRtc7bf6bd">
+																				How do I find a reliable real estate agent?                                            </button>
+																			</h2>
+																			<div id="collapseRtc7bf6bd" class="accordion-collapse collapse " aria-labelledby="faqheadingRtc7bf6bd" data-bs-parent="#faqMainRight">
+																				<div class="accordion-body pt-0">
+																					<p class=" nl-color-gray-800 pt-0 nl-fs-18 nl-lh-30 pl-20 nl-color-gray-800">
+																					It is a long established fact that a reader will be distracted by the readable content of a page hjklk when looking at its hkl layout.el.                                                </p>
+																				</div>
+																			</div>
+																		</div>
+																		<div class="accordion-item has_fade_anim" style="translate: none; rotate: none; scale: none; opacity: 1; transform: translate(0px, 0px);">
+																			<h2 class="accordion-header" id="faqheadingRtf5b4d5b">
+																				<button class="accordion-button collapsed nl-fs-18 nl-lh-24 pt-20 pb-15 pl-40" type="button" data-bs-toggle="collapse" data-bs-target="#collapseRtf5b4d5b" aria-controls="collapseRtf5b4d5b">
+																				How do I find a reliable real estate agent?                                            </button>
+																			</h2>
+																			<div id="collapseRtf5b4d5b" class="accordion-collapse collapse " aria-labelledby="faqheadingRtf5b4d5b" data-bs-parent="#faqMainRight">
+																				<div class="accordion-body pt-0">
+																					<p class=" nl-color-gray-800 pt-0 nl-fs-18 nl-lh-30 pl-20 nl-color-gray-800">
+																					It is a long established fact that a reader will be distracted by the readable content of a page hjklk when looking at its hkl layout.el.                                                </p>
+																				</div>
+																			</div>
+																		</div>
+																	</div>
+																</div>
+															</div>
+														</div>
+													</div>
+												</div>
+											</section>
+											<!-- Faq Section End -->
+										</div>
+									</div>
+								</div>
+							</div>
+						</div><!-- .entry-content -->
+
+					</article><!-- #post-616 -->
+				</div>
+
+			</main>
+
+			<!-- Footer Section Start -->
+			<section class="nlv2_footer nl-bg-color-brown nl-mp nl-malls">
+				<div class="nlv2_footer_wrapper">
+					<div class="container container-1290">																	
+
+						<div class="nlv2_footer_wrapper_container">
+							<div class="nlv2_footer_top pt-50 pb-50">
+								<div class="row">
+									<div class="col-12 col-lg-12 col-xl-3 col-xxl-3 col-md-6 col-sm-12 ps-0">
+										<div class="nlv2_footer_top_logo nl-footer-padding">
+											<a href="#"><img src="assets/images/logo-white.png" alt="" /></a>
+											<p class="nl-fs-18 nl-color-white-opacity nl-lh-30 pt-30 pb-30 nl-font-body">
+												Empowering dreams. From home to car, we offer tailored loans for every journey. Let us help you drive towards your goals. Your future starts with us.
+											</p>
+											<div class="nlv2_footer-social d-flex nlv2_footer-social gap-4 nl_footer_top_link">
+												<img alt="" role="presentation" width="53px" src="https://asset-service-bucket-prod.s3.amazonaws.com/8c06316f-9b90-48c0-af69-45931f8df7c6">
+												<a href="#" class="nl-button-hover overflow-hidden">
+													<span class="nl-button"><i class="nl-icon nl-icon-linkedin nl-fs-16"></i></span>
+												</a>	
+												<a href="#" class="nl-button-hover overflow-hidden">
+													<span class="nl-button"><i class="nl-icon nl-icon-facebook nl-fs-16"></i></span>
+												</a>
+												<a href="#" class="nl-button-hover overflow-hidden">
+													<span class="nl-button"><i class="nl-icon nl-icon-x-twitter nl-fs-16"></i></span>
+												</a>
+												<a href="#" class="nl-button-hover overflow-hidden">
+													<span class="nl-button"><i class="nl-icon nl-icon-instagram nl-fs-16"></i></span>
+												</a>												
+											</div>
+										</div>
+									</div>
+									<div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+									
+									<div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp">
+										<div class="nlv2_footer_top_link nl-mobile-mt">
+											<h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">Company</h4>
+											<ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Home</a></li>
+												<li><a href="homeloans.html" class="nl-font-body nl-fs-18 nl-lh-30">Home Loans</a></li>
+												<li><a href="auto-loans/index.html" class="nl-font-body nl-fs-18 nl-lh-30">Auto Loans</a></li>
+												<li><a href="commercial-loans.html" class="nl-font-body nl-fs-18 nl-lh-30">Commercial Loans</a></li>
+												<li><a href="about.html" class="nl-font-body nl-fs-18 nl-lh-30">About Us</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp">
+										<div class="nlv2_footer_top_link nl-mobile-mt">
+											<h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">
+												Resources
+											</h4>
+											<ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+												<li><a href="calculator.html" class="nl-font-body nl-fs-18 nl-lh-30">Calculators</a></li>
+												<li><a href="loanoptions.html" class="nl-font-body nl-fs-18 nl-lh-30">Loan Options</a></li>
+												<li><a href="https://www.calhfa.ca.gov/homebuyer/programs/myhome.htm#eligibility" target="_blank" class="nl-font-body nl-fs-18 nl-lh-30">Learning Center</a></li>
+												<li><a href="https://www.freddiemac.com/pmms" target="_blank" class="nl-font-body nl-fs-18 nl-lh-30">Current Rates</a></li>
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Blog</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp">
+										<div class="nlv2_footer_top_link nl-mobile-mt">
+											<h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">
+												Connect
+											</h4>
+											<ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+												<li><a href="contact.html" class="nl-font-body nl-fs-18 nl-lh-30">Find a Loan Officer</a></li>
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Find a branch</a></li>
+												<li><a href="contact.html" class="nl-font-body nl-fs-18 nl-lh-30">Contact Us </a></li>
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Closed Loan Info</a></li>
+											</ul>
+										</div>
+									</div>
+									<div class="col-12 col-lg-12 col-xl-2 col-xxl-2 col-md-6 col-sm-12 nl-mtp">
+										<div class="nlv2_footer_top_link nl-mobile-mt">
+											<h4 class="nl-fs-22 nl-color-white-opacity nl-lh-24 nl-font-heading pb-30">
+												Legal
+											</h4>
+											<ul class="ps-0 list-unstyled nlv2_footer_list_menu">
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">NMLS #2244475</a></li>	
+												<li><a href="https://www.nmlsconsumeraccess.org/" target="_blank" class="nl-font-body nl-fs-18 nl-lh-30">NMLS Consumer Access Page</a></li>												
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Privacy Notice</a></li>
+												<li><a href="#" class="nl-font-body nl-fs-18 nl-lh-30">Disclaimers</a></li>												
+											</ul>
+										</div>
+									</div>
+								</div>
+							</div>
+							<!--fine print start-->
+							<div class="nl-color-white-opacity nl-fs-12">	
+								<p>For information purposes only. This is not a commitment to lend or extend credit. Information and/or dates are subject to change without notice. All loans are subject to credit approval. Best in Funding, Inc. NMLS# 2244475 Equal Housing Lender (NMLS consumer access: https://www.nmlsconsumeraccess.org/_)</p>
+							</div>
+							<!--fine print end-->
+							<div class="nlv2_footer_bottom d-flex justify-content-between pt-25 pb-25 nl-dw nl-cr">
+								<p class="nl-f16 nl-fw4 nl-bcl nl-color-white nl-ffb">© Best In Funding, Inc. 2024 | All Rights Reserved</p>
+								<div class="nlv2_footer_bottom_link d-flex justify-content-between gap-3 nl-dw nl-ac">
+									<a href="#" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb" data-replace="Terms &amp; Condition"> <span class="nl_animation_text_linksp nl-color-white">Terms &amp; Condition</span></a>
+									<a href="privacy-policy.html" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb" data-replace="Privacy Policy"> <span class="nl_animation_text_linksp nl-color-white">Privacy Policy</span></a>
+									<a href="#" class="nl_animation_text_link nl-f16 nl-fw4 nl-bcl nl-ffb" data-replace="Sitemap"> <span class="nl_animation_text_linksp nl-color-white">Sitemap</span></a>
+								</div>
+							</div>
+						</div>
+						
+					</div>
+				</div>
+			</section>
+			<!-- Footer Section End -->
+		</div>
+	</div>
+	
+	<script src="assets/js/jquery.js"></script>
+	<script src="assets/js/bootstrap.bundle.min.js"></script>
+	<script src="assets/js/lity.min.js"></script>
+
+	<script src="assets/js/gsap.min.js"></script>
+	<script src="assets/js/locomotive-scroll.min.js"></script>
+	<script src="assets/js/ScrollTrigger.min.js"></script>
+	<script src="assets/js/ScrollToPlugin.min.js"></script>
+	<script src="assets/js/SplitText.min.js"></script>
+
+	<script src="assets/js/marquee.min.js"></script>
+	<script src="assets/js/swiper-bundle.min.js"></script>
+	<script src="assets/js/appear.js"></script>
+	<script src="assets/js/odometer.min.js"></script>
+	<script src="assets/js/script.js"></script>
+	<script type="text/javascript">
+		document.addEventListener("DOMContentLoaded", function() {
+			fetch("_header.html")
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById("header-container").innerHTML = data;
+			})
+			.catch(error => console.error('Error loading header:', error));
+		});
+
+		document.addEventListener("DOMContentLoaded", function() {
+			fetch("_footer.html")
+			.then(response => response.text())
+			.then(data => {
+				document.getElementById("footer-container").innerHTML = data;
+			})
+			.catch(error => console.error('Error loading header:', error));
+		});
+	</script>
+</body>
+</html>

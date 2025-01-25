@@ -1,0 +1,130 @@
+Welcome to [Your Company Name], your trusted partner in financing solutions. Established with a strong foundation in the auto loans industry, we have built a reputation for excellence, reliability, and customer-centric services. Over the years, our commitment to meeting the diverse needs of our clients has driven us to expand our offerings. Today, we are proud to provide not only auto loans but also comprehensive home loans and commercial loans, ensuring that we cater to the full spectrum of your financial requirements.
+
+At [Your Company Name], we understand that each customer’s financial situation is unique. Our team of experienced professionals is dedicated to delivering personalized solutions that align with your specific needs and goals. Whether you are looking to purchase your dream car, buy a new home, or finance your business growth, we have the expertise and resources to support you every step of the way. Our streamlined processes and competitive rates make securing a loan with us a seamless and stress-free experience.
+
+Our journey from specializing in auto loans to expanding into home and commercial loans is a testament to our adaptability and forward-thinking approach. We continually strive to enhance our services and stay ahead of industry trends to provide our clients with the best possible financial solutions. With a focus on integrity, transparency, and customer satisfaction, we aim to build long-lasting relationships based on trust and mutual success.
+
+Thank you for considering [Your Company Name] as your lending partner. We look forward to helping you achieve your financial goals with our comprehensive range of loan products. Whether you're an individual or a business, our team is here to offer you the support and guidance you need to make informed financial decisions. Let us be the bridge to your future, providing the financial foundation you need to succeed.
+
+<div class="nl__section-title mt-20 mb-20 has_fade_anim">
+							<h2 class="nl-fs-48 nl-lh-62 nl-color-black has_fade_anim">Your key partner to purchase a real estate success
+							Turning Esate properties</h2>
+						</div>
+
+	<div class="nl__about-features-wrap mt-45">
+							<ul class="list-unstyled">
+								<li class="nl-color-black nl-font-heading nl-fs-18 nl-lh-24 has_fade_anim">
+									<span class="nl-color-brown mr-10"><i
+										class="nl-icon nl-icon-circle-check"></i></span>
+										Turning Dreams into Addresses
+								</li>
+								<li class="nl-color-black nl-font-heading nl-fs-18 nl-lh-24 has_fade_anim">
+									<span class="nl-color-brown mr-10"><i
+										class="nl-icon nl-icon-circle-check"></i></span>
+										Where Every Home Tells a Story
+								</li>
+								<li class="nl-color-black nl-font-heading nl-fs-18 nl-lh-24 has_fade_anim">
+									<span class="nl-color-brown mr-10"><i
+										class="nl-icon nl-icon-circle-check"></i></span>
+											Your Key to Real Estate Success
+								</li>
+							</ul>
+						</div>
+
+
+
+
+
+
+
+
+==========================
+<!-- Team Section Start -->
+			<div class="nlv2_team nl-bg-color-gray-100 nl-section-pb">
+				<div class="nlv2_team_wrapper">
+					<div class="container container-1290">
+						<div class="nlv2_team_wrapper_container position-relative">
+							<div class="row">
+								<div class="col-12 col-lg-3 col-xl-3 col-xxl-3 col-md-12 col-sm-12">
+									<div class="nlv2_team-bg-content">
+										<img src="assets/images/team/building.png" alt="" class="bottom-0 position-absolute" />
+										<h6 class="nl-fs-14 nl-font-body nl-lh-19 text-uppercase nl-color-brown nl-fw-500 nl-ls-1 text-center text-lg-start text-md-start has_fade_anim">
+											Our Creative Members
+										</h6>
+										<h2 class="nl-fs-48 nl-font-heading nl-lh-62 nl-color-black m-auto text-center text-lg-start pb-15 pt-20 text-md-start has_fade_anim">
+											We are family
+										</h2>
+									</div>
+								</div>
+								<div class="col-12 col-lg-1 col-xl-1 col-xxl-1 col-md-12 col-sm-12 d-none d-lg-block"></div>
+								<div class="col-12 col-lg-8 col-xl-8 col-xxl-8 col-md-12 col-sm-12">
+									<div class="row g-3 nl-mobile-mt">
+										<div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+											<div class="nlv2_team-card has_fade_anim">
+												<img src="assets/images/team/team1.jpg" alt="" class="nl-border-radius-5" />
+												<div class="row g-0">
+													<div class="col-lg-9">
+														<div class="nlv2_team-card-content text-center position-relative pt-40 pb-45 nl-bg-color-white nl-border-radius-5 text-center">
+															<h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+																Jacob Jones
+															</h6>
+															<p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pt-1 pb-15">
+																Loan Officer
+															</p>
+															<div class="nlv2_team-card-content-social d-flex justify-content-center">
+																<span class="nl-button-hover"></span>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-facebook"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-twitter"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-instagram"></i></span>
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-3 d-none d-lg-block"></div>
+												</div>
+											</div>
+										</div>
+										<div class="col-12 col-lg-6 col-xl-6 col-xxl-6 col-md-6 col-sm-12">
+											<div class="nlv2_team-card has_fade_anim">
+												<img src="assets/images/team/team2.jpg" alt="" class="nl-border-radius-5" />
+												<div class="row g-0">
+													<div class="col-lg-9">
+														<div class="nlv2_team-card-content text-center position-relative pt-40 pb-45 nl-bg-color-white nl-border-radius-5 text-center">
+															<h6 class="nl-fs-22 nl-font-heading nl-lh-26 nl-color-black">
+																Kristin Watson
+															</h6>
+															<p class="nl-fs-18 nl-font-body nl-lh-30 nl-color-gray-800 pt-1 pb-15">
+																Loan Specialist
+															</p>
+															<div class="nlv2_team-card-content-social d-flex justify-content-center">
+																<span class="nl-button-hover"></span>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-facebook"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-twitter"></i></span>
+																</a>
+																<a href="#" class="nl-color-black border-1 border nl-border-cl nl-border-radius-5 nl-button-hover overflow-hidden">
+																	<span class="nl-button"><i class="nl-icon nl-icon-instagram"></i></span>
+																</a>
+															</div>
+														</div>
+													</div>
+													<div class="col-lg-3 d-none d-lg-block"></div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<!-- Team Section End -->
+=======================================================
